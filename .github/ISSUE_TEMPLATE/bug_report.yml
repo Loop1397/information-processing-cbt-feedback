@@ -1,5 +1,5 @@
 name: 버그 제보
-description: 사용 중 발생한 오류 제보.
+description: 사용 중 발생한 오류 제보
 title: "[버그] "
 labels: ["bug"]
 body:
