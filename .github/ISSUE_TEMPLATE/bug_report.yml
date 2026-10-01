@@ -1,0 +1,46 @@
+name: 버그 제보
+description: 웹앱에서 발생한 동작 오류를 알려 주세요.
+title: "[버그] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        이 제보는 공개 이슈로 표시됩니다. 이름·이메일·계정 정보 등 개인정보를 적지 마세요. 전체 시험문제, PDF, 문제지 사진도 올리지 마세요.
+  - type: input
+    id: page
+    attributes:
+      label: 문제가 발생한 화면 또는 주소
+      placeholder: 예) 회차 선택 화면 / 2024년 2회 풀이 화면
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 기기와 브라우저
+      placeholder: 예) Windows 11, Chrome 최신 버전
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 방법
+      description: 오류가 나타나기까지 한 동작을 순서대로 적어 주세요.
+      placeholder: |
+        1. 회차를 선택합니다.
+        2. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대한 결과와 실제 결과
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 추가 정보
+      description: 문제를 설명하는 데 필요한 최소한의 정보만 적어 주세요. 전체 문제 문구나 스캔 이미지는 포함하지 마세요.
+    validations:
+      required: false
