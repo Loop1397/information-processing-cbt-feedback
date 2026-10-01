@@ -20,7 +20,7 @@
 -
 ```
 
-## 2026-10-02 — [정보처리기사 실기 CBT 비공개 베타](https://github.com/Loop1397/information-processing-cbt-feedback/releases/tag/v1.0.0-beta.1)
+## 2026-10-02 — [정보처리기사 실기 CBT 베타 버전](https://github.com/Loop1397/information-processing-cbt-feedback/releases/tag/v1.0.0-beta.1)
 
 ### 추가
 - 2020~2026년 21개 회차, 총 420문항을 회차별로 학습할 수 있습니다.
@@ -28,5 +28,4 @@
 - 시험 회차 필터와 합격률 정렬을 제공합니다.
 
 ### 알려진 문제
-- 앱은 공개 테스트 전까지 Vercel 로그인으로 보호됩니다. 공개 사용자는 현재 접속할 수 없습니다.
 - 문제는 제보를 바탕으로 복원한 비공식 자료이며 실제 시험과 다를 수 있습니다.
