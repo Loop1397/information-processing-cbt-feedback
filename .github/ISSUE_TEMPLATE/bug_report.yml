@@ -1,5 +1,5 @@
 name: 버그 제보
-description: 웹앱에서 발생한 동작 오류를 알려 주세요.
+description: 사용 중 발생한 오류 제보.
 title: "[버그] "
 labels: ["bug"]
 body:
